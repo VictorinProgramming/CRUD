@@ -15,16 +15,21 @@ import org.springframework.context.annotation.Configuration;
 public class SwaggerConfig {
 
     @Bean
-    public OpenAPI customOpenAPI() {
+    public OpenAPI projetoCrudOpenAPI() {
         return new OpenAPI()
                 .info(new Info()
-                        .title("API de Gestão de Empregados e Cargos")
-                        .description("API RESTful para gerenciamento de empregados e seus respectivos cargos. Documentação gerada automaticamente com Swagger.")
-                        .version("1.0.0")
+                        .title("API CRUD de Empregados e Cargos")
+                        .description("API REST para gerenciamento de empregados e cargos com filtros, paginação, documentação e boas práticas.")
+                        .version("v1.0")
                         .contact(new Contact()
-                                .name("Seu Nome")
-                                .email("seuemail@exemplo.com")
-                                .url("https://github.com/seuusuario"))
-                        .license(new License().name("Apache 2.0").url("https://springdoc.org")));
+                                .name("Victor Estevão")
+                                .email("victormorekids@gmai.com")
+                                .url("https://github.com/VictorinProgramming"))
+                        .license(new License()
+                                .name("Apache 2.0")
+                                .url("http://springdoc.org")))
+                .externalDocs(new ExternalDocumentation()
+                        .description("Repositório no GitHub")
+                        .url("https://github.com/VictorinProgramming"));
     }
 }
