@@ -58,6 +58,8 @@ Rode a aplicação:
 Acesse a documentação da API: http://localhost:8080/swagger-ui.html ou dependendo da versão do Springdoc: http://localhost:8080/swagger-ui/index.html
 O Springdoc já vem configurado com os endpoints a partir do momento em que você anota seus controladores com @RestController e usa @Operation, @Parameter etc. (essas anotações são opcionais, mas ajudam na personalização).
 
+https://app.swaggerhub.com/apis/autonomo-08e/Empregados-Cargos-API/1.0.0
+Caso desejem ver a API no Swagger. Posso adicionar usuários para ficar mais fácil a visualização;
 
 💡 Funcionalidades da API:
 CRUD de Cargos
