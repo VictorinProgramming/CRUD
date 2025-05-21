@@ -1,0 +1,52 @@
+projetoCRUD/
+├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       └── projeto/
+│   │   │           └── crud/
+│   │   │               ├── ProjetoCrudApplication.java    # Classe main
+│   │   │
+│   │   │               ├── controller/
+│   │   │               │   ├── CargoController.java
+│   │   │               │   └── EmpregadoController.java
+│   │   │
+│   │   │               ├── service/
+│   │   │               │   ├── CargoService.java
+│   │   │               │   └── EmpregadoService.java
+│   │   │
+│   │   │               ├── repository/
+│   │   │               │   ├── CargoRepository.java
+│   │   │               │   └── EmpregadoRepository.java
+│   │   │
+│   │   │               ├── model/
+│   │   │               │   ├── Cargo.java
+│   │   │               │   └── Empregado.java
+│   │   │
+│   │   │               ├── dto/
+│   │   │               │   ├── CargoDTO.java
+│   │   │               │   └── EmpregadoDTO.java
+│   │   │
+│   │   │               ├── exception/
+│   │   │               │   ├── GlobalExceptionHandler.java
+│   │   │               │   └── ResourceNotFoundException.java (opcional)
+│   │   │
+│   │   │               └── config/
+│   │   │                   └── SwaggerConfig.java (opcional, se precisar configurar)
+│   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/               # Se tiver recursos estáticos
+│   │       └── templates/            # Se usar Thymeleaf (não precisa nesse projeto)
+│
+├── src/
+│   └── test/
+│       └── java/
+│           └── com/
+│               └── projeto/
+│                   └── crud/
+│                       └── service/
+│                           └── EmpregadoServiceTest.java (exemplo)
+│
+├── pom.xml
+└── README.md
