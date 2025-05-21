@@ -56,6 +56,8 @@ cd projeto-crud
 Compile o projeto
 Rode a aplicação:
 Acesse a documentação da API: http://localhost:8080/swagger-ui.html ou dependendo da versão do Springdoc: http://localhost:8080/swagger-ui/index.html
+O Springdoc já vem configurado com os endpoints a partir do momento em que você anota seus controladores com @RestController e usa @Operation, @Parameter etc. (essas anotações são opcionais, mas ajudam na personalização).
+
 
 💡 Funcionalidades da API:
 CRUD de Cargos
