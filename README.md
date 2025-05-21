@@ -81,6 +81,10 @@ EmpregadoServiceTest
 Mockito para mocks
 Executar testes com: mvn test
 
+O arquiv setting.xml foi adicionado ao arquivo;
+
+Visto que trabalho atualmente no TRT de Brasília, o desenvolvimento foi feito no local de trabalho, onde ultilizava-se a rede do Tribunal. 
+
 🚧 Melhorias Futuras:
 Autenticação JWT
 Integração com banco PostgreSQL
